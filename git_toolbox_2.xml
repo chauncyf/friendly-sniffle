@@ -1,5 +1,7 @@
 <application>
   <component name="GitToolBoxAppSettings2">
+    <option name="blameInlineAuthorNameType" value="FIRSTNAME" />
+    <option name="blameStatusAuthorNameType" value="FULL" />
     <option name="decorationParts">
       <list>
         <DecorationPartConfig>
@@ -12,13 +14,16 @@
           <option name="type" value="STATUS" />
         </DecorationPartConfig>
         <DecorationPartConfig>
-          <option name="type" value="TAGS_ON_HEAD" />
-          <option name="prefix" value="(" />
           <option name="postfix" value=")" />
+          <option name="prefix" value="(" />
+          <option name="type" value="TAGS_ON_HEAD" />
         </DecorationPartConfig>
       </list>
     </option>
+    <option name="presentationMode" value="text" />
     <option name="previousVersionMigrated" value="true" />
-    <option name="version" value="2" />
+    <option name="showBlameWidget" value="false" />
+    <option name="showStatusWidget" value="false" />
+    <option name="version" value="4" />
   </component>
 </application>
