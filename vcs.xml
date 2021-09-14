@@ -19,5 +19,10 @@
         <option value="Space.CommitStatus" />
       </list>
     </option>
+    <option name="COLUMN_ID_VISIBILITY">
+      <map>
+        <entry key="Table.Git.CommitSignature.ColumnIdVisibility" value="false" />
+      </map>
+    </option>
   </component>
 </application>
